@@ -22,7 +22,6 @@ int eValido(char letra) {
         return 1;
     } 
 	else {
-		printf("Letra fornecida invalida. Digite novamente")
         return 0;
     }
 }
@@ -36,7 +35,7 @@ int coordenadaEhValida(int x, int y){
     else{
     	printf("Coordenadas invalidas, digite novamente.");
 	}
-    return 0; // Corrigido: Adicionado retorno em caso de coordenada inválida
+    return 0; 
 }
 
 // Verifica se a posição na matriz está vazia (não ocupada por 'x' ou 'o')
